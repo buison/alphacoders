@@ -1,0 +1,46 @@
+.cover-container {
+  background-color:white;
+  border-radius:5px;
+  margin:0 6px 20px;
+  display:inline-block;
+  width:851px;
+  max-width:98%;
+}
+.cover-container h2 {
+  margin:15px;
+}
+.btn.disabled {
+  pointer-events:auto;
+  cursor:default;
+}
+.btn-generation {
+  min-width:195px;
+}
+#top_container {
+  width:100%;
+  padding:0 4px;
+  display:inline-block;
+}
+#list_tags {
+  margin-top:5px;
+  display:inline-block;
+  vertical-align:bottom;
+}
+#list_tags >
+  div {
+  display:inline-block;
+  font-weight:bold;
+  padding-bottom:7px;
+}
+#list_tags .well {
+  padding:5px 10px;
+  margin:1px;
+  display:inline-block;
+  font-weight:500;
+}
+#list_tags .well .glyphicon {
+  color:red;
+}
+#page_container .panel-heading {
+  font-size:17px;
+}
