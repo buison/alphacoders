@@ -1,0 +1,37 @@
+#tag_suggestion_container {
+  position:absolute;
+  text-align:left;
+}
+.ui-autocomplete {
+  position:absolute;
+  max-height:250px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  background:#eee;
+  border:none;
+  padding:1px 0;
+}
+.ui-state-active {
+  background-color:#ddd !important;
+  color:#000 !important;
+  border-top:1px dashed #000 !important;
+  border-bottom:1px dashed #000 !important;
+}
+#modal_favorite_container .streamline-info {
+  font-size:12px;
+  font-weight:700;
+  margin-bottom:10px;
+  font-style:italic;
+}
+#modal_favorite_container .img-responsive {
+  margin:auto;
+  max-height:400px;
+}
+#modal_favorite_container label {
+  width:200px;
+}
+#modal_favorite_container input,
+#modal_favorite_container select {
+  max-width:350px;
+  display:inline-block;
+}
