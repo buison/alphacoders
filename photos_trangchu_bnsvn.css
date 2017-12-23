@@ -3,7 +3,7 @@
         width: 100%;
     }
     .site-theme {
-        margin:0px; background: #ACCDED url(&quot;https://static.alphacoders.com/tile.jpg&quot;) repeat 0 0;
+        margin:0px; background: #ACCDED url("https://static.alphacoders.com/tile.jpg") repeat 0 0;
     }
     .text-white {
         color:#f5f5f5 !important;
@@ -397,7 +397,7 @@
         flex: 0 0 auto;
     }
     .breadcrumb-element:before, .breadcrumb-element:after {
-        content: &quot;&quot;;
+        content: "";
         position: absolute;
         top: 0;
         border-top: 20px solid transparent;
