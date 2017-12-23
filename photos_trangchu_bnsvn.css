@@ -215,7 +215,7 @@
         min-height: calc(100% - 350px);
     }
 
-    .pagination-sm &gt; li &gt; a {
+    .pagination-sm > li > a {
         padding: 5px 8px !important;
     }
     .pagination{
@@ -228,10 +228,10 @@
     .quick-jump-sm{
         margin:0;
     }
-    .quick-jump &gt; div &gt; input{
+    .quick-jump > div > input{
         width:90px !important;
     }
-    .quick-jump &gt; div &gt; span{
+    .quick-jump > div > span{
         width:50px !important;
         cursor:pointer;
     }
@@ -321,7 +321,7 @@
         background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
         background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
         background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#ffffff&#39;, endColorstr=&#39;#00ffffff&#39;,GradientType=0 );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
         margin-bottom: 15px;
     }
 
@@ -656,7 +656,7 @@
     
     #index_header{
         width:100%;
-        background-image:url(&#39;https://static.alphacoders.com/background_blue.svg&#39;);
+        background-image:url('https://static.alphacoders.com/background_blue.svg');
         background-size:cover;
     }
     #index_header .container{
@@ -830,7 +830,7 @@
         padding: 0;
         margin: 1px;
     }
-    #popular_container .well &gt; a{
+    #popular_container .well > a{
         padding: 6px 10px;
     }
     #popular_container .title-popular{
