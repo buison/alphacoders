@@ -1,0 +1,134 @@
+
+        #search_zone_index .btn-search-bar {
+            height:65px;
+            width:65px;
+        }
+
+        .header-blue {
+            font-size:1.65em;
+            font-weight: 600;
+            color:#2d6a92;
+            text-shadow:
+                    0 1px 0px #5dabcd,
+                    1px 0 0px #E6F9FF ,
+                    1px 2px 1px #5dabcd,
+                    2px 1px 1px #E6F9FF,
+                    2px 3px 2px #5dabcd,
+                    3px 2px 2px #E6F9FF,
+                    3px 4px 2px #5dabcd,
+                    4px 3px 3px #E6F9FF,
+                    4px 5px 3px #5dabcd,
+                    5px 4px 2px #E6F9FF;
+        }
+
+        .header-white {
+            display: inline-block;
+            font-size:5.6em;
+            color: white;
+            text-shadow:
+                    0 1px 0px #378ab4,
+                    1px 0 0px #5dabcd,
+                    1px 2px 1px #378ab4,
+                    2px 1px 1px #5dabcd,
+                    2px 3px 2px #378ab4,
+                    3px 2px 2px #5dabcd,
+                    3px 4px 2px #378ab4,
+                    4px 3px 3px #5dabcd,
+                    4px 5px 3px #378ab4,
+                    5px 4px 2px #5dabcd,
+                    5px 6px 2px #378ab4,
+                    6px 5px 2px #5dabcd,
+                    6px 7px 1px #378ab4,
+                    7px 6px 1px #5dabcd,
+                    7px 8px 0px #378ab4,
+                    8px 7px 0px #5dabcd;
+        }
+
+        .header-white::first-letter {
+            color: #2d6a92;
+            text-shadow:
+                    0 1px 0px #5dabcd,
+                    1px 0 0px #E6F9FF ,
+                    1px 2px 1px #5dabcd,
+                    2px 1px 1px #E6F9FF,
+                    2px 3px 2px #5dabcd,
+                    3px 2px 2px #E6F9FF,
+                    3px 4px 2px #5dabcd,
+                    4px 3px 3px #E6F9FF,
+                    4px 5px 3px #5dabcd,
+                    5px 4px 2px #E6F9FF,
+                    5px 6px 2px #5dabcd,
+                    6px 5px 2px #E6F9FF,
+                    6px 7px 1px #5dabcd,
+                    7px 6px 1px #E6F9FF;
+        }
+
+        .header-text, .header-blue, .header-white {
+            font-family: Tahoma, Arial, sans-serif;
+            margin: 0;
+        }
+
+
+
+        .header-white + .header-white {
+            margin-left: 20px;
+        }
+
+        #index_header{
+            width:100%;
+            background-image:url('https://static.alphacoders.com/background_blue.svg');
+            background-size:cover;
+            padding: 25px 0;
+        }
+        #index_header .container{
+            font-weight: bold;
+        }
+        #search_zone_index{
+            width:90%;
+            max-width:850px;
+            margin:auto;
+        }
+
+        .robot-logo {
+            margin: 25px auto 0;
+        }
+
+        .separator {
+            height: 1.2em;
+        }
+
+        @media (max-width: 768px){
+            .header-white {
+                font-size: 14vw !important;
+            }
+            .header-blue {
+                font-size: 7vw !important;
+            }
+            .header-text {
+                margin-top: 10px;
+                font-size: 4.5vw !important;
+            }
+        }
+
+        input.search-bar {
+            font-family: Tahoma, Arial, sans-serif;
+            font-size:2em;
+            height:65px;
+        }
+
+        #quick_navigation {
+            text-align:left;
+            margin-left:5%;
+            margin-top: 20px;
+        }
+        #quick_navigation .label {
+            padding: 9px 12px;
+            font-size: 14px;
+            margin: 5px 0 0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .notice {
+            margin-top: 0;
+        }
