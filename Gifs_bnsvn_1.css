@@ -40,13 +40,13 @@
             padding: 0 10px;
             margin-left: 315px;
         }
-        div.main-container &gt; div {
+        div.main-container > div {
             box-sizing: border-box;
             width: 100%;
             max-width: 1000px;
             margin: auto;
         }
-        div.main-container &gt; div + div {
+        div.main-container > div + div {
             margin-top: 25px;
         }
         div.sidebar-section-header {
@@ -59,7 +59,7 @@
         div.sidebar-section-header:before,
         div.sidebar-section-header:after {
             background-color: #000;
-            content: &quot;&quot;;
+            content: "";
             display: inline-block;
             height: 2px;
             position: relative;
@@ -92,7 +92,7 @@
         #list_tags, #new_tags {
             margin-top: 5px;
         }
-        #list_tags &gt; div {
+        #list_tags > div {
             display:inline-block;
             font-weight:bold;
             padding-bottom:7px;
@@ -115,10 +115,10 @@
         #new_tags button {
             width: auto;
         }
-        .dropdown-menu &gt; li &gt; a {
+        .dropdown-menu > li > a {
             padding: 3px 10px;;
         }
-        .dropdown-menu &gt; li + li {
+        .dropdown-menu > li + li {
             border-top: 1px solid #ddd;
         }
 
@@ -196,7 +196,7 @@
             margin: 5px 0;
         }
 
-        #confirmDelete .modal-footer &gt; *{
+        #confirmDelete .modal-footer > *{
             max-width: 48%;
             width: 100%;
             display: inline-block;
