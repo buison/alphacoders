@@ -1,4 +1,5 @@
-        .custom-breadcrumb {
+//<![CDATA[
+.custom-breadcrumb {
             position: relative;
             z-index: 2;
         }
@@ -201,3 +202,4 @@
             width: 100%;
             display: inline-block;
         }
+//]]>
