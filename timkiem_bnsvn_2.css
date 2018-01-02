@@ -1,0 +1,14 @@
+        .pagination {
+            margin:10px 0 0;
+        }
+        .quick-jump {
+            display:inline-block;
+            margin:10px 0 0 5px;
+        }
+        .quick-jump &gt; div &gt; input {
+            width:125px !important;
+        }
+        .quick-jump &gt; div &gt; span {
+            width:50px !important;
+            cursor:pointer;
+        }
