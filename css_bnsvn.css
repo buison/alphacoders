@@ -192,18 +192,6 @@
                 }
             }
 
-            .thumb-container {
-                background-color:white;
-                border-radius:5px;
-                margin: 0 6px 20px;
-                display: inline-block;
-                max-width: 100%;
-                position: relative;
-            }
-            .thumb-container img {
-                border-radius: 5px 5px 0 0;
-            }
-
             .nav-container {
                 background-image:linear-gradient(to bottom, white, rgba(255,255,255,0));
                 text-align: center;
